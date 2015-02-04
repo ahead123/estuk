@@ -45,4 +45,7 @@ gem 'devise'
 
 gem "cancan"
 
+gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
+
+
 
