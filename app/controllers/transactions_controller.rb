@@ -15,6 +15,7 @@ class TransactionsController < ApplicationController
 		rescue Stripe::CardError => e
 			@error = e
 			redirect_to book_path(book), notice: @error
+		end
 	end
 
 	def pickup
