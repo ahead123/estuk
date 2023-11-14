@@ -49,7 +49,7 @@ gem "paperclip", :git => "git://github.com/thoughtbot/paperclip.git"
 
 gem 'dotenv-rails', group: :development
 
-gem 'aws-sdk'
+gem 'aws-sdk', '>= 1.62.0'
 
 gem 'friendly_id'
 
